@@ -1,0 +1,8 @@
+# Maximum number of mobs allowed around any player
+mob_limiter.max_mobs (Maximum number of mobs) int 3 0 100
+
+# Distance to search around players for mobs
+mob_limiter.search_distance (Search distance) float 35 1 200
+
+# Time between scans for mobs (in seconds)
+mob_limiter.scan_period (Scan period) float 60 0.1 3600
